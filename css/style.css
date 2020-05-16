@@ -1,0 +1,106 @@
+body{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #e0f9b5;
+}
+.center{
+    text-align: center;
+    align-self: center;
+}
+.dp-logo{
+    border-radius: 100%;
+    width: 10%;
+}
+.navbar{
+ width: 100%;
+ font-size: 20px;
+ padding-top: 10px;
+ 
+}
+ul.navbar-nav li a{
+    font-size: 30px;
+}
+.intro{
+    height: 600px;
+    text-align: center;
+}
+.intro .name{
+    font-family: 'Sacramento', cursive;
+    font-size: 7rem;
+    padding: 13% 7% 2% ;
+}
+.about{
+    height: 800px;
+    padding: 3% 5% 3% 5%;
+    background-color: #a7e9af;
+    text-align: center;
+}
+#about-heading {
+    font-size: 3rem;
+    font-weight: bolder;
+   
+}
+.about-me li{
+    list-style: none;
+    line-height: 2rem;
+    font-size: 2rem;
+    padding: 2%;
+
+}
+.experience{
+    height: 500px; 
+}
+img.company-logo{
+    width: 100px;
+}
+.carousel-inner{
+    padding: 7% 15%;
+}
+.carousel-item h2{
+    font-size: 3.5rem;
+    padding-bottom: 100px;
+}
+.connect{
+    background-color: #a7e9af;
+    height: 200px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 7% 15%;
+}
+footer{
+    background-color: white;
+    height: 60px;
+    padding: 7% 13%;
+    font-size: 14px;
+   
+}
+.connect > a{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color: unset;
+    
+}
+
+     
+@media (max-width: 425px){
+    #about-heading {
+        font-size: 1.5rem;
+        font-weight: bold;
+       
+    }
+    .carousel-item h2{
+        font-size: 1.5rem;
+        padding-bottom: 100px;
+    }
+    
+    .about-me li{
+        list-style: circle;
+        line-height: 2rem;
+        font-size: 1.2rem;
+
+      
+    }
+}
