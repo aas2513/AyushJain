@@ -95,6 +95,10 @@ footer{
         font-size: 1.5rem;
         padding-bottom: 100px;
     }
+    .connect{
+        height:200px;
+        padding:7% 15%;
+    }
     
     .about-me li{
         list-style: circle;
